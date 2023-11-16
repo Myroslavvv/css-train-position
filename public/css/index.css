@@ -17,26 +17,35 @@
 }
 
 .container4 {
-
+  position: relative;
 }
 
 .task4 {
   width: 1000px;
 }
 .task4 .item {
-  position: calc();
+  position: absolute;
+  left: calc(49% - 40px);
 }
 
 .task5 .item1 {
   background-color: red;
+  position: relative;
   z-index: 2;
+  top: 5%;
+  left: 3%;
 }
 .task5 .item2 {
-  z-index: 3;
+  position: relative;
+  z-index: 1;
+  bottom: 11%;
+  left: 6%;
 }
 .task5 .item3 {
   background-color: green;
-  z-index: 1;
+  position: relative;
+  z-index: 3;
+  bottom: 43%;
 }
 
 .task6 .item {
